@@ -13,6 +13,7 @@
 		0A19F28B1C23F5AA00CA09E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A19F2891C23F5AA00CA09E4 /* MainMenu.xib */; };
 		0A19F2961C23F5AA00CA09E4 /* popup_cocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2951C23F5AA00CA09E4 /* popup_cocoaTests.m */; };
 		0A19F2A11C23F5AA00CA09E4 /* popup_cocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2A01C23F5AA00CA09E4 /* popup_cocoaUITests.m */; };
+		0A19F2B01C24073900CA09E4 /* Pop_up.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2AF1C24073900CA09E4 /* Pop_up.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		0A19F29C1C23F5AA00CA09E4 /* popup_cocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popup_cocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A19F2A01C23F5AA00CA09E4 /* popup_cocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popup_cocoaUITests.m; sourceTree = "<group>"; };
 		0A19F2A21C23F5AA00CA09E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A19F2AE1C23F70000CA09E4 /* Pop_up.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pop_up.h; sourceTree = "<group>"; };
+		0A19F2AF1C24073900CA09E4 /* Pop_up.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pop_up.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				0A19F2891C23F5AA00CA09E4 /* MainMenu.xib */,
 				0A19F28C1C23F5AA00CA09E4 /* Info.plist */,
 				0A19F2841C23F5AA00CA09E4 /* Supporting Files */,
+				0A19F2AE1C23F70000CA09E4 /* Pop_up.h */,
+				0A19F2AF1C24073900CA09E4 /* Pop_up.m */,
 			);
 			path = popup_cocoa;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A19F2861C23F5AA00CA09E4 /* main.m in Sources */,
+				0A19F2B01C24073900CA09E4 /* Pop_up.m in Sources */,
 				0A19F2831C23F5AA00CA09E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
